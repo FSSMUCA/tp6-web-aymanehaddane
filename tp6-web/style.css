@@ -1,0 +1,100 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+   user-select: none;
+}
+
+body {
+   background: black;
+   padding: 20px;
+   color: white;
+}
+
+header {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+h1 {
+   margin-bottom: 10px;
+   color: red;
+}
+
+main {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+
+}
+
+.card {
+   background: white;
+   padding: 20px;
+   border-radius: 12px;
+   box-shadow: 3px 3px 6px red, -3px -3px 6px red;
+   color: black;
+   transition: all 0.6s ease;
+
+}
+form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+input,select{
+   padding: 10px;
+   border-radius: 8px;
+   border: 1px solid black;
+}
+label{
+   font-weight: bold;
+}
+
+.fleche{
+   display: flex;
+   justify-content: center;
+   font-size: xx-large;
+   font-weight: 900;
+   color: red;
+   text-shadow: 0 0 5px red;
+   
+}
+.btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+button {
+   background: red;
+   color: black;
+   width: 100px;
+   font-weight: bold;
+   padding: 10px;
+   cursor: pointer;
+   border: none;
+   border-radius: 15px;
+   transition: all 0.5s ease;
+}
+
+button:hover {
+   box-shadow: 0 4px 5px red;
+   transform: translateY(-3px);
+}
+
+#history li {
+   padding: 5px 0;
+   border-bottom: 1px solid red;
+   list-style: square;
+}
+
+footer {
+   text-align: center;
+   color: red;
+   margin-top: 40px;
+   font-size: large;
+}
